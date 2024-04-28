@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "me.duncanruns.netherrewind.mixin",
+	"compatibilityLevel": "JAVA_8",
+	"mixins": [
+		"DefaultBiomeFeaturesMixin",
+		"MultiNoiseBiomeSourceMixin",
+		"NetherFortressFeatureMixin",
+		"NetherWastesBiomeMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
